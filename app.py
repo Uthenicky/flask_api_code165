@@ -22,7 +22,7 @@ class ExResource(Resource):
         identitas['nama'] = nama
         identitas['umur'] = umur
 
-        response = {"msg": "Berhasil"}
+        response = {"msg": "Berhasil", "data": identitas}
         return response
 
 
